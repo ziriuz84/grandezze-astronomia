@@ -1,40 +1,148 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/sky.css" />
+    <link rel="stylesheet" href="dist/custom.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Le grandezze in astronomia</h1>
+          <img src="img/logo.png" />
+        </section>
+        <section>
+          <h1>Le grandezze fondamentali</h1>
+          <ul>
+            <li>Posizione</li>
+            <li>Distanza</li>
+            <li>Luce</li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h1>Come ci orientiamo in cielo?</h1>
+          </section>
+          <section>
+            <h1>Gli asterismi</h1>
+          </section>
+          <section>
+            <h1>Gli Asterismi</h1>
+            <ul>
+              <li class="fragment">Facili da imparare</li>
+              <li class="fragment">Utili per trovare il Nord</li>
+              <li class="fragment">Non sempre visibili</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Le coordinate altazimutali</h1>
+            <img src="img/altaz.svg" alt="" />
+          </section>
+          <section>
+            <h1>Le coordinate altazimutali</h1>
+            <ul>
+              <li class="fragment">Altezza</li>
+              <li class="fragment">Azimut</li>
+              <li class="fragment">Zenit e Nadir</li>
+              <li class="fragment">Semplici da utilizzare</li>
+              <li class="fragment">Essenziali in osservazione terrestre</li>
+              <li class="fragment">Non seguono il percorso degli astri</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Le coordinate equatoriali</h1>
+            <img src="img/equatoriali.svg" />
+          </section>
+          <section>
+            <h1>Le coordinate equatoriali</h1>
+            <ul>
+              <li class="fragment">
+                Proiezione in cielo delle coordinate terrestri
+              </li>
+              <li class="fragment">AscensioneRetta</li>
+              <li class="fragment">Declinazione</li>
+              <li class="fragment">Poli</li>
+              <li class="fragment">Meridiano e Equatore</li>
+              <li class="fragment">Più difficili da utilizzare</li>
+              <li class="fragment">
+                Seguono la posizione delle stelle in cielo (circa)
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h1>Le coordinate galattiche</h1>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Come misuriamo le distanze?</h1>
+            <ul>
+              <li class="fragment">Metri?</li>
+              <li class="fragment">Chilometri?</li>
+              <li class="fragment">Tanti km alla volta?</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Sistema solare</h1>
+            <h2>L'Unità Astronomica</h2>
+          </section>
+          <section>
+            <h1>Lo spazio</h1>
+            <h2>Anno luce</h2>
+          </section>
+          <section>
+            <h1>Lo spazio</h1>
+            <h2>Parsec</h2>
+          </section>
+        </section>
+        <section>
+          <h1>Le masse</h1>
+          <ul>
+            <li class="fragment">Le masse terrestri</li>
+            <li class="fragment">Le masse solari</li>
+          </ul>
+        </section>
+        <section>
+          <section><h1>La luce</h1></section>
+          <section><h1>Il colore</h1></section>
+          <section>
+            <h1>La luminosità</h1>
+            <ul>
+              <li class="fragment">Magnitudine assoluta</li>
+              <li class="fragment">Magnitudine apparente</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
